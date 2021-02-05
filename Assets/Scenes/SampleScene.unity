@@ -163,7 +163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83523684}
   - component: {fileID: 83523685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 95165709}
   - component: {fileID: 95165710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103002252}
   - component: {fileID: 103002253}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258929093}
   - component: {fileID: 258929094}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282709864}
   - component: {fileID: 282709865}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LevelBoundaryLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 331584161}
   - component: {fileID: 331584162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -633,7 +633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339243697}
   - component: {fileID: 339243698}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 530110478}
   - component: {fileID: 530110479}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1107,7 +1107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678460837}
   - component: {fileID: 678460838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,7 +1164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722859064}
   - component: {fileID: 722859065}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pitfall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1221,7 +1221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751605675}
   - component: {fileID: 751605676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1278,7 +1278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766536789}
   - component: {fileID: 766536790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pitfall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1335,7 +1335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866239712}
   - component: {fileID: 866239713}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1388,7 +1388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874002845}
   - component: {fileID: 874002846}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978120980}
   - component: {fileID: 978120981}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1498,7 +1498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981244240}
   - component: {fileID: 981244241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1555,7 +1555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039377362}
   - component: {fileID: 1039377363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1612,7 +1612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101251040}
   - component: {fileID: 1101251041}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1669,7 +1669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335720143}
   - component: {fileID: 1335720144}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1779,7 +1779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1485662945}
   - component: {fileID: 1485662946}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pitfall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1836,7 +1836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1572593414}
   - component: {fileID: 1572593415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1892,7 +1892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1744613166}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +1964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1772473852}
   - component: {fileID: 1772473853}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2021,7 +2021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800378730}
   - component: {fileID: 1800378731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2078,7 +2078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1801305161}
   - component: {fileID: 1801305162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2135,7 +2135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851039108}
   - component: {fileID: 1851039109}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pitfall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2249,7 +2249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871798165}
   - component: {fileID: 1871798166}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2306,7 +2306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885339232}
   - component: {fileID: 1885339233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2420,7 +2420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1914624374}
   - component: {fileID: 1914624375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpThru1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2530,7 +2530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018819168}
   - component: {fileID: 2018819169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2587,7 +2587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080159331}
   - component: {fileID: 2080159332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2644,7 +2644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2107951331}
   - component: {fileID: 2107951332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pipe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2701,7 +2701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126823391}
   - component: {fileID: 2126823392}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 200
+  jumpForce: 300
   isGrounded: 1
   isFiring: 0
   isCape: 0
