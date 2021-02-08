@@ -4,11 +4,13 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class PlayerMovement : MonoBehaviour
 {
 
     Rigidbody2D rb;
     Animator anim;
+    SpriteRenderer marioSprite;
 
     public float speed;
     public int jumpForce;
@@ -19,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
 
-    private Vector3 initialScale;
+    //private Vector3 initialScale;
 
 
 
@@ -28,8 +30,9 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        marioSprite = GetComponent<SpriteRenderer>();
 
-        initialScale = transform.localScale;
+        //initialScale = transform.localScale;
 
         if (speed <= 0)
         {
@@ -92,7 +95,7 @@ public class PlayerMovement : MonoBehaviour
             isCape = false;
         }
 
-
+        /*
  
         if  (Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.D)))
         {
@@ -103,6 +106,11 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(-initialScale.x, initialScale.y, initialScale.z);
         }
+        */
+        if (marioSprite.flipX && horizontalInput > 0 || !marioSprite.flipX && horizontalInput < 0)
+            marioSprite.flipX = !marioSprite.flipX;
+        
+
 
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         anim.SetFloat("speed", Mathf.Abs(horizontalInput));
