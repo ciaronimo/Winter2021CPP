@@ -5,24 +5,42 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
+    public enum CollectibleType
+    {
+        POWERUP,
+        COLLECTIBLE,
+        LIVES,
+        KEY
+    }
+
+    public CollectibleType currentCollectible;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "player")
         {
-            Debug.Log("power");
-            Destroy(gameObject);
+            
+            switch (currentCollectible)
+            {
+                case CollectibleType.POWERUP:
+                    Destroy(gameObject);
+                    coll.GetComponent<PlayerMovement>().StartJumpForceChange();
+                    
+                    Destroy(gameObject);
+                    break;
+                case CollectibleType.LIVES:
+                        Destroy(gameObject);
+                    coll.GetComponent<PlayerMovement>().lives++;
+                    Destroy(gameObject);
+                     break;
+                case CollectibleType.COLLECTIBLE:
+                    Destroy(gameObject);
+                    coll.GetComponent<PlayerMovement>().score++;
+                     
+                    break;
+            }
+            
         }
         else if (coll.gameObject.layer == 6)
         {
