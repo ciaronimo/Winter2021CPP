@@ -15,10 +15,10 @@ public class Projectile : MonoBehaviour
             lifetime = 2.0f;
         }
 
-        
+
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
         Destroy(gameObject, lifetime);
-        
+
     }
 
     void OnEnable()
@@ -45,18 +45,16 @@ public class Projectile : MonoBehaviour
             Debug.Log("hit");
             Destroy(gameObject);
         }
-        /*
-        else if (coll.gameObject.layer == 6)
+
+        if (coll.gameObject.tag == "enemy" || coll.gameObject.tag == "Squish")
         {
-            Debug.Log("ignore");
-            Physics2D.IgnoreCollision(coll.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-
+            coll.gameObject.GetComponent<EnemyWalker>().IsDead();
+            Destroy(gameObject);
         }
-        */
+
+
+
+        // Update is called once per frame
+
     }
-
-
-
-    // Update is called once per frame
-
 }

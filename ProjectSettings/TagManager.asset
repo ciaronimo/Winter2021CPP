@@ -9,6 +9,10 @@ TagManager:
   - player
   - projectile
   - Pickups
+  - enemy
+  - squish
+  - barrier
+  - enemyProjectile
   layers:
   - Default
   - TransparentFX
@@ -17,9 +21,9 @@ TagManager:
   - Water
   - UI
   - powerUp
-  - 
-  - 
-  - 
+  - playerProjectiles
+  - enemyProjectiles
+  - enemies
   - 
   - 
   - 

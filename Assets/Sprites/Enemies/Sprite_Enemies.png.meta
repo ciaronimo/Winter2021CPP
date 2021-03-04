@@ -1144,7 +1144,7 @@ TextureImporter:
     second: FootballAttack3
   - first:
       213: 3582905062180159172
-    second: Sprite_Enemies_380
+    second: TurretIdle
   - first:
       213: 3518308927901196128
     second: Sprite_Enemies_381
@@ -1213,16 +1213,16 @@ TextureImporter:
     second: Sprite_Enemies_402
   - first:
       213: -1102886872579451921
-    second: Sprite_Enemies_403
+    second: TurretThrow5
   - first:
       213: -2264828942158702246
-    second: Sprite_Enemies_404
+    second: TurretThrow6
   - first:
       213: -1926116987578435073
-    second: Sprite_Enemies_405
+    second: TurretThrow7
   - first:
       213: -5232502554205338816
-    second: FootballAttack4
+    second: TurretThrow8
   - first:
       213: 7962131236819935460
     second: Sprite_Enemies_407
@@ -1294,16 +1294,16 @@ TextureImporter:
     second: Sprite_Enemies_429
   - first:
       213: -2377237786465301537
-    second: Sprite_Enemies_430
+    second: TurretThrow1
   - first:
       213: -6426917726086614663
-    second: Sprite_Enemies_431
+    second: TurretThrow2
   - first:
       213: -1412917830863510514
-    second: Sprite_Enemies_432
+    second: TurretThrow3
   - first:
       213: -6737833500471518676
-    second: FootballIdle
+    second: TurretThrow4
   - first:
       213: 2816963842537049648
     second: Sprite_Enemies_434
@@ -1315,7 +1315,7 @@ TextureImporter:
     second: Sprite_Enemies_436
   - first:
       213: 8231723984923347343
-    second: FootballAttack5
+    second: TurretThrow9
   - first:
       213: 5906658709840926140
     second: Sprite_Enemies_438
@@ -1372,10 +1372,10 @@ TextureImporter:
     second: Sprite_Enemies_455
   - first:
       213: 4096748978658626181
-    second: Sprite_Enemies_456
+    second: KoopaWalk1
   - first:
       213: -4655428008840287938
-    second: Sprite_Enemies_457
+    second: KoopaWalk2
   - first:
       213: -4978260438847950106
     second: Sprite_Enemies_458
@@ -1405,7 +1405,7 @@ TextureImporter:
     second: Sprite_Enemies_466
   - first:
       213: -8320605450497437263
-    second: Sprite_Enemies_467
+    second: KoopaDeath
   - first:
       213: -6344966185704219216
     second: Sprite_Enemies_468
@@ -1501,7 +1501,7 @@ TextureImporter:
     second: Sprite_Enemies_498
   - first:
       213: -6086775892676988321
-    second: Sprite_Enemies_499
+    second: KoopaSquish
   - first:
       213: 7950262757088144532
     second: Sprite_Enemies_500
@@ -2093,7 +2093,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -2107,7 +2107,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3206,7 +3206,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 40
-        y: 592
+        y: 591
         width: 16
         height: 16
       alignment: 7
@@ -10132,7 +10132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_380
+      name: TurretIdle
       rect:
         serializedVersion: 2
         x: 279
@@ -10615,7 +10615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_403
+      name: TurretThrow5
       rect:
         serializedVersion: 2
         x: 132
@@ -10636,7 +10636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_404
+      name: TurretThrow6
       rect:
         serializedVersion: 2
         x: 160
@@ -10657,7 +10657,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_405
+      name: TurretThrow7
       rect:
         serializedVersion: 2
         x: 187
@@ -10678,7 +10678,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FootballAttack4
+      name: TurretThrow8
       rect:
         serializedVersion: 2
         x: 217
@@ -11182,7 +11182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_430
+      name: TurretThrow1
       rect:
         serializedVersion: 2
         x: 2
@@ -11203,7 +11203,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_431
+      name: TurretThrow2
       rect:
         serializedVersion: 2
         x: 30
@@ -11224,7 +11224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_432
+      name: TurretThrow3
       rect:
         serializedVersion: 2
         x: 60
@@ -11245,7 +11245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FootballIdle
+      name: TurretThrow4
       rect:
         serializedVersion: 2
         x: 91
@@ -11329,7 +11329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FootballAttack5
+      name: TurretThrow9
       rect:
         serializedVersion: 2
         x: 216
@@ -11728,7 +11728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_456
+      name: KoopaWalk1
       rect:
         serializedVersion: 2
         x: 27
@@ -11749,7 +11749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_457
+      name: KoopaWalk2
       rect:
         serializedVersion: 2
         x: 46
@@ -11959,7 +11959,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_467
+      name: KoopaDeath
       rect:
         serializedVersion: 2
         x: 250
@@ -12631,7 +12631,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Enemies_499
+      name: KoopaSquish
       rect:
         serializedVersion: 2
         x: 250
