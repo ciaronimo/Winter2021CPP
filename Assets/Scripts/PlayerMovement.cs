@@ -22,38 +22,6 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius;
 
 
-    int _score = 0;
-    public int score
-    {
-        get { return _score; }
-        set
-        {
-            _score = value;
-            Debug.Log("Current Score is " + _score);
-        }
-    }
-
-    public int maxLives = 3;
-    int _lives = 3;
-
-    public int lives
-    {
-        get { return _lives; }
-        set
-        {
-            _lives = value;
-            if(_lives > maxLives)
-            {
-                _lives = maxLives;
-            }
-            else if( _lives < 0)
-            {
-                //run game over code here
-            }
-
-            Debug.Log("Current lives are " + lives);
-        }
-    }
     //private Vector3 initialScale;
 
 

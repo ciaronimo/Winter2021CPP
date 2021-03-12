@@ -30,7 +30,7 @@ public class Projectile : MonoBehaviour
             Physics2D.IgnoreCollision(PowerUp.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
 
-        GameObject[] collectibleObjects = GameObject.FindGameObjectsWithTag("Collectible");
+        GameObject[] collectibleObjects = GameObject.FindGameObjectsWithTag("Pickups");
 
         foreach (GameObject Collectible in collectibleObjects)
         {

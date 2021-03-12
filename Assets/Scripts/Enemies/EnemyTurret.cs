@@ -47,7 +47,7 @@ public class EnemyTurret : MonoBehaviour
         playerTransform = player.position;
         if (Vector2.Distance(playerTransform, turretTransform) <= 10)
         {
-            Debug.Log("close");
+          
             if (Time.time >= timeSinceLastFire + projectileFireRate)
             {
                 if (playerTransform.x >= turretTransform.x)

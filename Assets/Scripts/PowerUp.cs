@@ -24,20 +24,20 @@ public class PowerUp : MonoBehaviour
             switch (currentCollectible)
             {
                 case CollectibleType.POWERUP:
-                    Destroy(gameObject);
+                    
                     coll.GetComponent<PlayerMovement>().StartJumpForceChange();
                     
                     Destroy(gameObject);
                     break;
                 case CollectibleType.LIVES:
-                        Destroy(gameObject);
-                    coll.GetComponent<PlayerMovement>().lives++;
+
+                    GameManager.instance.lives++;
                     Destroy(gameObject);
                      break;
                 case CollectibleType.COLLECTIBLE:
+
+                    GameManager.instance.score++;
                     Destroy(gameObject);
-                    coll.GetComponent<PlayerMovement>().score++;
-                     
                     break;
             }
             
