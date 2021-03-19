@@ -101,6 +101,7 @@ public class EnemyTurret : MonoBehaviour
             health--;
             Destroy(collision.gameObject);
             if (health <= 0){
+                GameManager.instance.score++;
                 Destroy(gameObject);
             }
         }

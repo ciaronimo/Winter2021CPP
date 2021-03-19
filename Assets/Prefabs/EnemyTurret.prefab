@@ -150,7 +150,7 @@ MonoBehaviour:
   projectileForce: 0
   projectileFireRate: 0
   health: 0
-  player: {fileID: 0}
+  player: {fileID: 8364171034543999310, guid: ffeb9a7ef154c30468c30b42321d00c9, type: 3}
 --- !u!1 &9100892087883888930
 GameObject:
   m_ObjectHideFlags: 0

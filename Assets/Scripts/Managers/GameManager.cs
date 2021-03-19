@@ -32,9 +32,9 @@ public class GameManager : MonoBehaviour
         get { return _lives; }
         set
         {
-            if (_lives > value)
+            if (_lives > value && _lives >= 0)
             {
-                //respawn code here
+                SpawnPlayer(currentLevel.spawnLocation);
             }
             _lives = value;
             if (_lives > maxLives)
@@ -48,6 +48,9 @@ public class GameManager : MonoBehaviour
             Debug.Log("Current Lives Are " + _lives);
         }
     }
+
+    public GameObject playerPrefab;
+    public LevelManager currentLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -93,11 +96,51 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Backspace))
         {
+            QuitGame();
+        }
+
+  
+    }
+    public void SpawnPlayer(Transform spawnLocation)
+    {
+        //CameraFollow mainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraFollow>();
+        CameraFollow mainCamera = FindObjectOfType<CameraFollow>();
+        EnemyTurret[] turretEnemy = FindObjectsOfType<EnemyTurret>();
+
+        if (mainCamera)
+        {
+            mainCamera.player = Instantiate(playerPrefab, spawnLocation.position, spawnLocation.rotation);
+
+            for (int i = 0; i < turretEnemy.Length; i++)
+            {
+                turretEnemy[i].player = mainCamera.player.transform;
+            }
+        }
+        else
+        {
+            SpawnPlayer(spawnLocation);
+        }
+    }
+    
+    public void StartGame()
+    {
+        SceneManager.LoadScene("Level");
+    }
+
+    public void QuitGame()
+    {
 #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
 #else
             Application.Quit();
 #endif
-        }
+        
     }
+
+    public void QuitToMenu()
+    {
+        SceneManager.LoadScene("TitleScreen");
+    }
+
 }
+

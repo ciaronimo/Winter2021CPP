@@ -30,6 +30,7 @@ public class PlayerCollision : MonoBehaviour
             if (!pm.isGrounded)
             {
                 collision.gameObject.GetComponentInParent<EnemyWalker>().IsSquished();
+                GameManager.instance.score++;
                 rb.velocity = Vector2.zero;
                 rb.AddForce(Vector2.up * bounceForce);
              }
@@ -42,13 +43,14 @@ public class PlayerCollision : MonoBehaviour
         {
             GameManager.instance.lives--;
             Destroy(collision.gameObject);
-            //if lives > 0, respawn and restart level
+            Destroy(gameObject);
         }
 
         if (collision.gameObject.tag == "Enemy")
         {
-            GameManager.instance.lives--; 
-            //if lives > 0, respawn and restart level
+            GameManager.instance.lives--;
+            Destroy(gameObject);
+            
         }    
     }
     // Update is called once per frame
